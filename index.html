@@ -21,12 +21,13 @@
          color: orange;   
         }
         .stem{
+            
             background-color: burlywood;
             width: 20px;
             height: 50px;
             position: relative;
             left: 200px;
-            top: 80px;
+            top: 100px;
             border: black 4px solid;
             
         }
@@ -117,6 +118,22 @@
             left: 80px;
             top: -35px;
             
+            transition: 1ms;
+            border-top-left-radius: 0px;
+            border-top-right-radius: 0px;
+            border-bottom-left-radius: 10cm;
+            border-bottom-right-radius: 10cm;
+          
+        }
+        .mouth :hover {
+            background-color: black;
+            width: 40px;
+            height: 30px;
+            position: relative;
+            left: 80px;
+            top: -55px;
+            background-color: peru;
+            
             transition: 2s;
             border-top-left-radius: 0px;
             border-top-right-radius: 0px;
@@ -128,9 +145,33 @@
             background-color: green;
             width:auto;
             height: 400px;
+            position: relative;
+            top:400px;
+                        
+        }
+        #holiday {
+            opacity: 0;
+            transition: 2s;
+            position: relative;
+            left: 200px;
+            top: 100px;
+            width:auto;
+            font-size: 40px;
+            border-radius: 4px;
+            height: 90px;
+            color: peachpuff;
+        }
+    
+        #holiday:hover {
+            opacity: 100%;
+            display :grid;
+            color: darkcyan;
+            background-color: orange;
+            font-size: 40px
+            font-family: 'Courier New', Courier, monospace;
             
         }
-        
+    
      .
 
     </style>
@@ -154,11 +195,9 @@
       <div class="mouth">
 
       </div>>
-    </div>
-    <div>
-
-    </div>
+       </div>
 </div>
+<span id="holiday">happy halloween from austin</span>
 <footer class="halloween-background">
     
 </footer>
